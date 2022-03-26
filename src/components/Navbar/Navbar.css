@@ -27,3 +27,13 @@
   align-items: center;
   color: #fff;
 }
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+.menu a:hover {
+  color: rgb(124, 124, 124);
+}
