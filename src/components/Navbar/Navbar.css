@@ -21,19 +21,28 @@
 }
 
 .menu {
-  width: 300px;
+  width: 500px;
   height: 50px;
   display: flex;
   align-items: center;
   color: #fff;
+  padding-right: 5px;
 }
 
 .menu a {
+  width: 100%;
   color: #fff;
   text-decoration: none;
   margin-left: 20px;
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
 }
 
 .menu a:hover {
-  color: rgb(124, 124, 124);
+  color: rgb(245, 216, 50);
+}
+
+.active {
+  color: rgb(245, 216, 50) !important;
 }
