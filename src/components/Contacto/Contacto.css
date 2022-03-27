@@ -1,31 +1,54 @@
 .contacto {
   width: 100%;
-  height: calc(90vh - 60px);
-  margin-top: 60px;
+  padding: 60px 0;
 }
 
 .contenedorContacto {
   width: 100%;
-  height: calc(100vh - 60px);
   display: flex;
-  padding-top: 100px;
+  padding-top: 80px;
 }
 
 .infoContacto {
   width: 50%;
 }
 
+.infoContacto a {
+  text-decoration: none;
+  color: rgb(34, 37, 41);
+}
+
+.infoContacto a:hover {
+  color: #f3c046;
+}
+
 .infoContacto h3 {
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .formContacto {
   width: 50%;
 }
 
+.formContacto input:focus {
+  border: 1px solid #f3c046;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
 .formContacto textarea {
   resize: none;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.formContacto textarea:focus {
+  border: 1px solid #f3c046;
+}
+
+.negrita {
+  font-weight: bold;
 }
 
 .btn-enviar {
@@ -39,4 +62,34 @@
 .btn-enviar:hover {
   background-color: #f3c046 !important;
   color: #000 !important;
+}
+
+.escribime {
+  display: none;
+}
+
+@media (max-width: 480px) {
+  .contenedorContacto {
+    flex-direction: column;
+    padding-top: 30px;
+  }
+
+  .escribime {
+    display: block;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .negrita {
+    font-weight: normal;
+  }
+
+  .infoContacto,
+  .formContacto {
+    width: 100%;
+  }
+
+  .infoContacto {
+    margin-bottom: 30px;
+  }
 }
