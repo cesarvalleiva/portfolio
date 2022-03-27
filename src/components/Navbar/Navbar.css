@@ -21,16 +21,16 @@
 }
 
 .menu {
-  width: 500px;
+  width: 50%;
   height: 50px;
   display: flex;
   align-items: center;
   color: #fff;
   padding-right: 5px;
+  justify-content: end;
 }
 
 .menu a {
-  width: 100%;
   color: #fff;
   text-decoration: none;
   margin-left: 20px;

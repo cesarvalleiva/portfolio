@@ -12,7 +12,8 @@ const Navbar = () => {
             <div className='menu'>
                 <a href="#home" className={navi.hash === '#home' || navi.hash === '' ? 'active' : ''}>Home</a>
                 <a href="#sobremi" className={navi.hash === '#sobremi' ? 'active' : ''}>Sobre mi</a>
-                <a href="#servicios" className={navi.hash === '#portfolio' ? 'active' : ''}>Portfolio</a>
+                <a href="#servicios" className={navi.hash === '#servicios' ? 'active' : ''}>Servicios</a>
+                <a href="#portfolio" className={navi.hash === '#portfolio' ? 'active' : ''}>Portfolio</a>
                 <a href="#contacto" className={navi.hash === '#contacto' ? 'active' : ''}>Contacto</a>
             </div>
         </div>

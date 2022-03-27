@@ -12,7 +12,7 @@ function App() {
     <Router>
       <Navbar />
       <Encabezado />
-      {/* <Sobremi /> */}
+      <Sobremi />
       <Servicios />
       <Contacto />
       <Footer />
