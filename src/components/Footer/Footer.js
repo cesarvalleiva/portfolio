@@ -9,6 +9,9 @@ const Footer = () => {
             <a href='https://twitter.com/cesarvalleiva' target="_blank" rel="noreferrer"><i className="bi bi-twitter"></i></a>
             <a href='https://github.com/cesarvalleiva' target="_blank" rel="noreferrer"><i className="bi bi-github"></i></a>
         </div>
+        <div className='registro'>
+          © César Val Leiva
+        </div>
     </div>
   )
 }

@@ -5,6 +5,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+}
+
+.rrss {
+  margin-bottom: 20px;
 }
 
 .rrss a {
@@ -18,6 +23,10 @@
   color: rgb(78, 78, 78);
 }
 
-.rrss i:last-child {
-  margin-right: 0;
+.rrss a:last-child {
+  margin-right: 0 !important;
+}
+
+.registro {
+  color: rgb(153, 153, 153);
 }
