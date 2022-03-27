@@ -40,9 +40,9 @@
 }
 
 .menu a:hover {
-  color: rgb(245, 216, 50);
+  color: #f3c046;
 }
 
 .active {
-  color: rgb(245, 216, 50) !important;
+  color: rgb(243, 192, 70) !important;
 }

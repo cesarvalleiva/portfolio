@@ -1,0 +1,30 @@
+.sobremi {
+  width: 100%;
+  height: 100vh;
+  padding-top: 60px;
+}
+
+.infoPersonal {
+  width: 100%;
+  height: calc(100vh - 60px);
+  display: flex;
+}
+
+.imagen {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagen img {
+  width: 70%;
+  border-radius: 10px;
+}
+
+.info {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 102px;
+}
