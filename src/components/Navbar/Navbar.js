@@ -2,7 +2,8 @@ import { useLocation } from 'react-router-dom';
 import './Navbar.css'
 
 const Navbar = () => {
-    const navi = useLocation()
+    const navi = useLocation();
+    
   return (
     <div className='navegacion'>
         <div className='contenedorNav container'>
